@@ -90,5 +90,15 @@ int isFull()
     {
         return 1;
     } 
+
+     void display()
+{
+    if (isEmpty())
+    {
+        printf("\nQueue is Empty\n");
+        return;
+    }
+    printf("\n");
+
     return 0;    
 }
